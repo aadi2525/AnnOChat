@@ -44,7 +44,7 @@ const Chats = () => {
             <p>{chat[1].lastMessage?.text}</p>
           </div>
           </div>
-        ))};
+        ))}
 
       </div>
   );
