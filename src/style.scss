@@ -255,7 +255,7 @@
       .messages {
         background-color: white;
         padding: 10px;
-        height: calc(100% - 160px);
+        height: calc(100% - 150px);
         overflow: scroll;
         color: black;
 
@@ -315,7 +315,8 @@
       }
 
       .input {
-        height: 50px;
+        height: 40px;
+        width: 100%;
         background-color: #60aadb;
         padding: 10px;
         display: flex;
@@ -344,17 +345,24 @@
         .send {
           display: flex;
           align-items: center;
-          gap: 10px;
+          height: 30px;
 
-          img {
-            height: 24px;
+          .image {
+            display: flex;
+            
+            flex-direction: row;
+            height: 30px;
             cursor: pointer;
+
           }
 
           button {
+            display: flex;
             border: none;
-            padding: 10px 15px;
-            color: white;
+            padding:  10px;
+            margin-right: 13px;
+            align-items: center;
+            color: rgb(0, 0, 0);
             background-color: #60aadb;
             cursor: pointer;
           }

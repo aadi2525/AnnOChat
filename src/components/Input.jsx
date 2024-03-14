@@ -91,7 +91,7 @@ const Input = () => {
       />
       <div className="send">
         {/* <img src={Attach} alt="" /> */}
-        <UploadFileIcon fontSize="large"   />
+        <UploadFileIcon fontSize="large" className="image  file"  />
         <input
           type="file"
           style={{ display: "none" }}
@@ -100,9 +100,9 @@ const Input = () => {
         />
         <label htmlFor="file">
           {/* <img src={Img} alt="" /> */}
-          <AddPhotoAlternateIcon  fontSize="large" />
+          <AddPhotoAlternateIcon className="image"  fontSize="large" />
         </label>
-        <button onClick={handleSend}><SendIcon /></button>
+        <button onClick={handleSend} ><SendIcon /></button>
       </div>
     </div>
   );
